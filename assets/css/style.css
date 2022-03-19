@@ -1,0 +1,146 @@
+html {
+  font-size: 62.5%;
+  /*line-height: 1.5;*/
+  /*#6fda44*/
+  /*#008329*/
+
+}
+
+body {
+  margin: 0;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 400;
+  font-size: 1.4rem;
+  position: relative;
+}
+
+ul,
+li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+h2 {
+  font-size: 4rem;
+  text-transform: capitalize;
+  font-weight: 900;
+  color: #1e1c1c;
+  margin-bottom: 2.5rem;
+}
+
+h3 {
+  font-size: 3rem;
+  font-weight: 700;
+  line-height: 1.4;
+}
+
+/*=====================================*/
+/*      5. Header area css start       */
+/*=====================================*/
+
+/*=====================================*/
+/*      5. Header area css end         */
+/*=====================================*/
+
+
+
+
+
+/*=====================================*/
+/*      6. Header area css start       */
+/*=====================================*/
+
+/*=====================================*/
+/*      6. Header area css end         */
+/*=====================================*/
+
+
+
+
+
+
+/*=====================================*/
+/*      7. Header area css start       */
+/*=====================================*/
+
+/*Custom Check box*/
+
+.custom_checkbox_2 {
+  position: relative;
+  cursor: pointer;
+}
+
+.custom_checkbox_2 input {
+  position: absolute;
+  opacity: 0;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+.custom_checkbox_2 .checkmark {
+  position: absolute;
+  top: 17px;
+  left: 0;
+  height: 22px;
+  width: 23px;
+  background-color: #FFF;
+  border: 2px solid #ffae00;
+  border-radius: 2px;
+}
+
+.custom_checkbox_2 .checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+.custom_checkbox_2 input:checked~.checkmark {
+  background-color: #FFF;
+}
+
+.custom_checkbox_2 input:checked~.checkmark:after {
+  display: block;
+}
+
+.custom_checkbox_2 .checkmark::after {
+  left: 8px;
+  top: -4px;
+  width: 13px;
+  height: 19px;
+  border: solid #ffae00;
+  border-width: 0 4px 4px 0;
+  -webkit-transform: rotate(45deg);
+  transform: rotate(37deg);
+}
+
+.custom_checkbox_2 p span {
+  margin-left: 34px;
+  padding-top: 11px;
+  font-size: 14px;
+  color: #000;
+  text-transform: none;
+  display: block;
+  font-weight: 300;
+}
+
+/*chekbox end*/
+/*=====================================*/
+/*      7. Header area css end         */
+/*=====================================*/
